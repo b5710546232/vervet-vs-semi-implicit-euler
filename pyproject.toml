@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "vervet-vs-semi-implicit-eulur"
+version = "0.1.0"
+description = ""
+authors = ["b5710546232 <safe.suk@gmail.com>"]
+readme = "README.md"
+packages = [{include = "vervet_vs_semi_implicit_eulur"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+matplotlib = "^3.7.1"
+numpy = "^1.25.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
